@@ -26,9 +26,7 @@ public class JSONUseActivity {
  		StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
  		.detectDiskReads().detectDiskWrites()
  		.detectNetwork().penaltyLog().build());	// strictMode is most commonly used to catch accidental disk or network
- 												// access on the application's main thread
- 
- 		sup
+ 		// access on the application's main thread
  		
  		addTag = (EditText) findViewById(R.id.editText1);
  		submit = (Button) findViewById(R.id.subButton);
